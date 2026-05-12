@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_apple_crate": {
+    "has_golden_apple_crate": {
       "conditions": {
         "items": [
           {
-            "items": "nguhcraft:apple_crate"
+            "items": "nguhcraft:golden_apple_crate"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:apple"
+        "recipe": "minecraft:golden_apple"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_apple_crate"
+      "has_golden_apple_crate"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:apple"
+      "minecraft:golden_apple"
     ]
   }
 }

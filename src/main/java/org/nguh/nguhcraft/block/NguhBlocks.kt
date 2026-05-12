@@ -688,6 +688,7 @@ object NguhBlocks {
     val GRAPE_CRATE = RegisterCrate("grape_crate")
     val PEANUT_CRATE = RegisterCrate("peanut_crate")
     val APPLE_CRATE = RegisterCrate("apple_crate")
+    val GOLDEN_APPLE_CRATE = RegisterCrate("golden_apple_crate")
 
     // Budding leaves manually override 'asItem()' to return the base block.
     val BUDDING_OAK_LEAVES = RegisterWithoutItem(
