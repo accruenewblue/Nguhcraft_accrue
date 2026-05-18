@@ -431,6 +431,7 @@ class NguhcraftRecipeGenerator(
             NguhBlocks.GOLDEN_APPLE_CRATE to Items.GOLDEN_APPLE,
             NguhBlocks.GRAPE_CRATE to NguhItems.GRAPES,
             NguhBlocks.PEANUT_CRATE to NguhItems.PEANUTS,
+            NguhBlocks.CHERRY_CRATE to NguhItems.CHERRY,
         )) nineBlockStorageRecipes(
             RecipeCategory.FOOD,
             Crop,
